@@ -1,6 +1,6 @@
 {
     "name": "elcodi/geo-bundle",
-    "description": "Elcodi Geo component",
+    "description": "Elcodi Geo Bundle",
     "keywords": ["elcodi", "geo", "ecommerce"],
     "homepage": "https://github.com/elcodi/GeoBundle",
     "type": "symfony-bundle",
@@ -29,10 +29,11 @@
         "symfony/http-foundation": "~2.4",
         "symfony/http-kernel": "~2.4",
 
-        "elcodi/core-bundle": "~0.2.0"
+        "elcodi/core-bundle": "~0.3.0",
+        "elcodi/geo": "~0.3.0"
     },
     "require-dev": {
-        "elcodi/test-common-bundle": "~0.2.0",
+        "elcodi/test-common-bundle": "~0.3.0",
         "doctrine/data-fixtures": "~1.0",
         "phpunit/phpunit": ">=3.7"
     },
@@ -44,7 +45,7 @@
     "minimum-stability": "stable",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.2-dev"
+            "dev-master": "0.3-dev"
         }
     }
 }
