@@ -19,9 +19,9 @@ namespace Elcodi\Bundle\GeoBundle\Tests\Functional\Factory;
 use Elcodi\Bundle\TestCommonBundle\Functional\WebTestCase;
 
 /**
- * Class CountryFactoryTest
+ * Class StateFactoryTest
  */
-class CountryFactoryTest extends WebTestCase
+class StateFactoryTest extends WebTestCase
 {
     /**
      * Schema must be loaded in all test cases
@@ -41,8 +41,8 @@ class CountryFactoryTest extends WebTestCase
     public function getServiceCallableName()
     {
         return [
-            'elcodi.core.geo.factory.country',
-            'elcodi.factory.country',
+            'elcodi.core.geo.factory.state',
+            'elcodi.factory.state',
         ];
     }
 }

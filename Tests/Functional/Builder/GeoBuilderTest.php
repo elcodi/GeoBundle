@@ -14,14 +14,14 @@
  * @author Aldo Chiecchia <zimage@tiscali.it>
  */
 
-namespace Elcodi\Bundle\GeoBundle\Tests\Functional\Factory;
+namespace Elcodi\Bundle\GeoBundle\Tests\Functional\Builder;
 
 use Elcodi\Bundle\TestCommonBundle\Functional\WebTestCase;
 
 /**
- * Class CountryFactoryTest
+ * Class GeoBuilderTest
  */
-class CountryFactoryTest extends WebTestCase
+class GeoBuilderTest extends WebTestCase
 {
     /**
      * Schema must be loaded in all test cases
@@ -41,8 +41,8 @@ class CountryFactoryTest extends WebTestCase
     public function getServiceCallableName()
     {
         return [
-            'elcodi.core.geo.factory.country',
-            'elcodi.factory.country',
+            'elcodi.core.geo.builder.geo_builder',
+            'elcodi.geo_builder',
         ];
     }
 }
